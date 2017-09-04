@@ -12,7 +12,7 @@
 <body>
 
 <c:forEach items = "${messageList}" var = "message">
-
+<li id = "message_<c:out value="message.id"/>">
 </c:forEach>
 
 </body>
